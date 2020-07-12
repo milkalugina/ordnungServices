@@ -1,0 +1,120 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px 10px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 99vw;
+  background-color: white;
+  position: fixed;
+  padding-top: 5px;
+}
+
+.menu-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  margin: 0px !important;
+}
+
+nav {
+  display: flex;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+
+.topmenu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: black;
+}
+
+.topmenu a:hover {
+  background-color: #C59552;
+  border-radius: 16px;
+  transition: 0.5s ease-in-out;
+  color: white !important;
+}
+
+.topmenu a:visited {
+  color: black;
+}
+
+.submenu {
+  padding: 5px 0px;
+  position: absolute;
+  left: 0;
+  margin-right: 3px;
+  z-index: 10;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-desktop .submenu {
+  transform: scaleY(0);
+  transform-origin: 0 0;
+}
+
+.menu-desktop ul li:hover .submenu {
+  transform: scaleY(1);
+}
+
+.submenu li a {
+  background-color: #C59552;
+  border-radius: 16px;
+  margin-top: 3px;
+  color: white !important;
+}
+
+footer {
+  margin-top: auto;
+}
+
+footer p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 10px;
+  background-color: #697A61;
+  border-radius: 16px;
+  color: white;
+}

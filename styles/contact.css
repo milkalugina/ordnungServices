@@ -1,0 +1,49 @@
+.contact {
+  background-color: #C59552;
+  border-radius: 16px;
+  color: white !important;
+}
+
+.contact-block {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  min-width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-block iframe {
+  border-radius: 16px;
+  width: 900px;
+  height: 500px;
+}
+
+.contact-block .contact-text {
+  display: inline;
+  float: left;
+  width: 500px;
+}
+
+.contact-block .contact-text p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #C59552;
+  padding: 15px 15px;
+  margin-left: 6vw;
+  border-radius: 16px;
+  margin-top: 20px;
+  float: left;
+  color: white;
+  cursor: default;
+}
+
+.contact-block .contact-text p a {
+  text-decoration: none;
+  color: #697A61;
+  cursor: pointer;
+}
