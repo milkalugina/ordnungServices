@@ -3,3 +3,29 @@
   border-radius: 16px;
   color: white !important;
 }
+.what-services {
+  margin-top: 7vh;
+  min-height: 80vh;
+}
+
+.what-services h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 146px;
+  text-transform: uppercase;
+  background-color: #C59552;
+  border-radius: 16px;
+  margin-top: 20px;
+  padding: 45px;
+}
+
+.what-services h2 a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.what-services h2:hover {
+  background-color: #697A61;
+}
