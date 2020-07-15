@@ -1,8 +1,8 @@
 .journey-block {
   margin-top: 80px;
-  min-height: 80vh;
+  min-height: 90vh;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
 }
 
 .about-careers {
