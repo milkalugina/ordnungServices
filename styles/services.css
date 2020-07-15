@@ -5,8 +5,12 @@
 }
 
 .what-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 80px;
   min-height: 80vh;
+  align-items: center;
 }
 
 .what-services h2 {
