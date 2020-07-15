@@ -209,7 +209,25 @@
   height: 596px;
 }
 
+.career-customer_right-des .career-customer_right-img {
+  background: #323756;
+}
 
+.career-customer_right-des .career-customer_right-info h2 {
+  background: #323756;
+}
+
+.career-customer_left-end {
+  margin-bottom: 15px;
+}
+
+.career-customer_left-end .career-customer_left-img {
+  background: #455570;
+}
+
+.career-customer_left-end .career-customer_left-info h2 {
+  background: #455570;
+}
 
 #modalCustomerEng, #modalEngMalayChinese,
 #modalEngViet, #modalEngThai, #modalEngInd, #modalMotionDes, #modalBusDev {
@@ -283,8 +301,4 @@
 	top: 0; left: 0;
 	cursor: pointer;
 	display: none;
-}
-
-.career-customer_left-end {
-  margin-bottom: 15px;
 }
