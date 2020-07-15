@@ -1,0 +1,290 @@
+.journey-block {
+  margin-top: 80px;
+  min-height: 80vh;
+  display: flex;
+  flex-flow: column;
+}
+
+.about-careers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-careers div h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: white;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+.about-careers .about-careers_begin {
+  background: #C59552;
+  border-radius: 16px;
+  width: 99vw;
+}
+
+.about-careers .about-careers_ordnung {
+  background: #273C41;
+  border-radius: 16px;
+  margin-top: 10px;
+  width: 99vw;
+
+}
+
+.journey-block h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 59px;
+  text-transform: uppercase;
+  width: 55vw;
+  margin-top: 50px;
+}
+
+.journey-block p a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #C59552;
+  border-radius: 16px;
+  float: left;
+  padding: 10px;
+  margin: 40px 0px;
+}
+
+.journey-block img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.career-customer_left {
+  margin-top: 80px;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.career-customer_left-info {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.career-customer_left-info h2 {
+  background: #25222A;
+  border-radius: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+.career-customer_left-info h3,
+.career-customer_left-info a {
+  background: #C59552;
+  border-radius: 16px;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.career-customer_left-info a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.career-customer_left-info a:hover {
+  background: #273C41;
+}
+
+.career-customer_left-img {
+  margin-left: 1vw;
+  width: 38vw;
+  background: #25222A;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.career-customer_left-img img {
+  height: 596px;
+}
+
+
+.career-customer_right {
+  margin-top: 80px;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.career-customer_right-info {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 1vw;
+}
+
+.career-customer_right-info h2 {
+  background: #25222A;
+  border-radius: 16px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 30px;
+}
+
+.career-customer_right-info h3,
+.career-customer_right-info a {
+  background: #C59552;
+  border-radius: 16px;
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 40px;
+  text-decoration: none;
+}
+
+.career-customer_right-info a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.career-customer_right-info a:hover {
+  background: #273C41;
+}
+
+.career-customer_right-img {
+  width: 38vw;
+  background: #25222A;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.career-customer_right-img img {
+  height: 596px;
+}
+
+
+
+#modalCustomerEng, #modalEngMalayChinese,
+#modalEngViet, #modalEngThai, #modalEngInd, #modalMotionDes, #modalBusDev {
+  width: 80vw;
+  opacity: 0;
+  z-index: 38;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  padding: 20px 20px;
+	border-radius: 16px;
+	background: #ffffff;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+#modalCustomerEng p, #modalCustomerEng span, #modalEngMalayChinese p, #modalEngMalayChinese span,  #modalEngViet p, #modalEngViet span, #modalEngThai p, #modalEngThai span, #modalEngInd p, #modalEngInd span, #modalMotionDes p, #modalMotionDes span, #modalBusDev p, #modalBusDev span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #C59552;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+#modalCustomerEng ul li, #modalEngMalayChinese ul li,
+#modalEngViet ul li, #modalEngThai ul li, #modalEngInd ul li, #modalMotionDes ul li, #modalBusDev ul li {
+  padding: 10px 10px 5px 10px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+#modalCustomerEng #modalCustomerEng__close,
+#modalEngMalayChinese #modalEngMalayChinese__close,
+#modalEngViet #modalEngViet__close,
+#modalEngThai #modalEngThai__close, #modalEngInd #modalEngInd__close, #modalMotionDes #modalMotionDes__close, #modalBusDev #modalBusDev__close {
+	cursor: pointer;
+	display: block;
+  text-align: center;
+}
+
+#modalCustomerEng #modalCustomerEng__close:hover,
+#modalEngMalayChinese #modalEngMalayChinese__close:hover,
+#modalEngViet #modalEngViet__close:hover,
+#modalEngThai #modalEngThai__close:hover, #modalEngInd #modalEngInd__close:hover, #modalMotionDes #modalMotionDes__close:hover, #modalBusDev #modalBusDev__close:hover {
+  background: #273C41;
+}
+
+#modalCustomerEng__overlay,
+#modalEngMalayChinese__overlay,
+#modalEngViet__overlay,
+#modalEngThai__overlay, #modalEngInd__overlay, #modalMotionDes__overlay, #modalBusDev__overlay {
+	z-index: 37;
+	position: fixed;
+	background-color: rgba(0,0,0,.7);
+	width: 100%; height: 100%;
+	top: 0; left: 0;
+	cursor: pointer;
+	display: none;
+}
+
+.career-customer_left-end {
+  margin-bottom: 15px;
+}

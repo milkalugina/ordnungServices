@@ -3,8 +3,9 @@
   border-radius: 16px;
   color: white !important;
 }
+
 .what-services {
-  margin-top: 7vh;
+  margin-top: 80px;
   min-height: 80vh;
 }
 
@@ -17,8 +18,11 @@
   text-transform: uppercase;
   background-color: #C59552;
   border-radius: 16px;
-  margin-top: 20px;
   padding: 45px;
+}
+
+.what-services .what-services_outsourcing {
+  margin-top: 20px;
 }
 
 .what-services h2 a {
