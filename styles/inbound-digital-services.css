@@ -1,0 +1,265 @@
+.digital-marketing-block {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.digital-marketing-block h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #C59444;
+  border-radius: 16px;
+  padding: 50px;
+  display: flex;
+}
+
+.digital-marketing-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.digital-marketing-info-first,
+.digital-marketing-info-second {
+  display: flex;
+  flex-direction: row;
+}
+
+.digital-marketing-info h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #C59552;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.digital-marketing-info-first h2,
+.digital-marketing-info-second h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #273C41;
+  border-radius: 16px;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.digital-marketing-info-first h3,
+.digital-marketing-info-second h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #25222A;
+  border-radius: 16px;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* tactics-block */
+.tactics-block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+}
+
+.tactics-block h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  margin: 35px;
+}
+
+.tactics-block-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tactics-block-info p {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+  padding: 40px;
+  width: 40vw;
+}
+
+.tactics-block-info img {
+
+}
+
+/* inbound-marketing-block */
+.inbound-marketing-block {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.inbound-marketing-block-h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #000000;
+  margin: 35px;
+}
+
+.inbound-marketing-info-first,
+.inbound-marketing-info-second {
+  display: flex;
+  flex-direction: row;
+}
+
+.inbound-marketing-info h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #C59552;
+  border-radius: 16px;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.inbound-marketing-info-first h2,
+.inbound-marketing-info-second h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #273C41;
+  border-radius: 16px;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.inbound-marketing-info-first h3,
+.inbound-marketing-info-second h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #25222A;
+  border-radius: 16px;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: 10px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* strategy-block */
+
+.strategy-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.strategy-block-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.strategy-block-info p {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+  padding: 40px;
+  width: 40vw;
+}
+
+.strategy-block-info img {
+  margin-left: 50px;
+}
+
+.strategy-block h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  color: #FFFFFF;
+  background: #C59552;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+.strategy-block-mail-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.strategy-block-mail-us p {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+  padding: 40px;
+  width: 40vw;
+}
+
+.strategy-block-mail-us p a {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 110%;
+  background-color: #C59552;
+  width: 145px;
+  padding: 15px 15px;
+  text-align: center;
+  margin-left: 6vw;
+  border-radius: 16px;
+  text-decoration: none;
+  color: white;
+}
