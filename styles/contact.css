@@ -32,7 +32,7 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  background-color: #C59552;
+  background: #273C41;
   padding: 15px 15px;
   margin-left: 6vw;
   border-radius: 16px;
@@ -44,6 +44,6 @@
 
 .contact-block .contact-text p a {
   text-decoration: none;
-  color: #697A61;
+  color: #C59552;
   cursor: pointer;
 }

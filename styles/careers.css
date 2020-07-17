@@ -206,7 +206,7 @@
 }
 
 .career-customer_right-img img {
-  height: 596px;
+  height: 700px;
 }
 
 .career-customer_right-des .career-customer_right-img {
@@ -255,12 +255,17 @@
   line-height: 49px;
   display: flex;
   text-align: center;
+  align-items: center;
   justify-content: center;
   text-transform: uppercase;
   color: #FFFFFF;
   background: #C59552;
   border-radius: 16px;
   padding: 10px;
+}
+
+#modalCustomerEng span, #modalEngMalayChinese span,   #modalEngViet span, #modalEngThai span, #modalEngInd span,  #modalMotionDes span, #modalBusDev span {
+  padding: 10px 20px;
 }
 
 #modalCustomerEng ul li, #modalEngMalayChinese ul li,
@@ -301,4 +306,19 @@
 	top: 0; left: 0;
 	cursor: pointer;
 	display: none;
+}
+
+
+.career-customer-cancel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.career-customer-cancel p {
+  flex-grow: 5;
+}
+
+.career-customer-cancel span {
+  margin-left: 10px;
 }
