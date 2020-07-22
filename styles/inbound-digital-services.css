@@ -1,3 +1,8 @@
+body {
+  overflow-x: hidden;
+  border:white 10px;
+}
+
 .digital-marketing-block {
   margin-top: 80px;
   margin-bottom: 40px;
@@ -96,25 +101,38 @@
 
 .tactics-block-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('../imgs/effective-inbound-bckrnd.svg');
+  height: 200vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120vw 200vh;
 }
 
 .tactics-block-info p {
+  background: #FFFFFF;
+  border-radius: 16px;
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 120%;
+  line-height: 130%;
   color: #000000;
-  padding: 40px;
-  width: 40vw;
+  padding: 70px;
+  width: 30vw;
+  margin: 12vw;
 }
 
-.tactics-block-info img {
-
+.tactics-block-info p:first-child {
+  margin-left: 30vw;
 }
+
+.tactics-block-info p:nth-child(2) {
+  margin-left: -20vw;
+}
+
 
 /* inbound-marketing-block */
 .inbound-marketing-block {
@@ -195,29 +213,6 @@
   justify-content: center;
 }
 
-.strategy-block-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.strategy-block-info p {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 120%;
-  color: #000000;
-  padding: 40px;
-  width: 40vw;
-}
-
-.strategy-block-info img {
-  margin-left: 50px;
-}
-
 .strategy-block h2 {
   font-family: Montserrat;
   font-style: normal;
@@ -242,7 +237,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 120%;
+  line-height: 130%;
   color: #000000;
   padding: 40px;
   width: 40vw;

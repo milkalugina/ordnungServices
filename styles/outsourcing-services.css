@@ -26,8 +26,8 @@
   font-size: 60px;
   line-height: 75px;
   color: #000000;
-  margin: 35px;
-  padding-top: 20px;
+  margin: 7vh 20px;
+  padding-top: 30px;
 }
 
 /* factors-block */
@@ -35,40 +35,37 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 65px;
-}
-
-.factors-block-info {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-image: url('../imgs/outsourcing-service-bckrnd.svg');
+  height: 200vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120vw 200vh;
 }
 
-.factors-block-info p {
+.factors-block p {
+  background: #FFFFFF;
+  border-radius: 16px;
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 120%;
+  line-height: 130%;
   color: #000000;
-  padding: 40px;
-  width: 40vw;
+  padding: 70px;
+  width: 30vw;
+  margin: 12vw;
 }
 
-.factors-block-info img {
-
+.factors-block p:first-child {
+  margin-left: 30vw;
 }
 
-.factors-block h2 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 75px;
-  color: #000000;
-  margin: 35px;
-  padding-top: 20px;
+.factors-block p:nth-child(2) {
+  margin-left: -20vw;
 }
+
 
 /* main-factors-block */
 .main-factors-block {
@@ -122,7 +119,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 40px 0px;
+  margin: 70px 0px;
+}
+
+.guide-block-info img {
+  width: 32vw;
 }
 
 .guide-block-text {
@@ -130,6 +131,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 10vw;
 }
 
 .guide-block-text p {
@@ -137,7 +139,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-  line-height: 120%;
+  line-height: 130%;
   color: #000000;
   padding: 40px;
   width: 30vw;
