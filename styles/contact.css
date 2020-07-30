@@ -47,3 +47,23 @@
   color: #C59552;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1440px) {
+  .contact-block {
+    margin-top: 15vh;
+    justify-content: space-around;
+  }
+
+  .contact-block .contact-text p {
+    font-size: 13px;
+    margin-left: 3vw;
+  }
+
+  .contact-block iframe  {
+    height: 480px;
+  }
+
+  .contact-block .contact-text {
+    width: 423px;
+  }
+}

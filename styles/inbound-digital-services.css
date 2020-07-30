@@ -258,3 +258,33 @@ body {
   text-decoration: none;
   color: white;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .digital-marketing-block h1 {
+    line-height: 110%;
+    font-size: 80px;
+    padding: 20px 50px;
+  }
+
+  .digital-marketing-info-first h2, .digital-marketing-info-second h2, .digital-marketing-info-first h3, .digital-marketing-info-second h3, .digital-marketing-info h2, .inbound-marketing-info-first h2, .inbound-marketing-info-second h2, .inbound-marketing-info-first h3, .inbound-marketing-info-second h3, .inbound-marketing-info h2 {
+    line-height: 110%;
+    font-size: 70px;
+  }
+
+  .tactics-block h2, .inbound-marketing-block-h2, .strategy-block h2 {
+    font-size: 55px;
+    line-height: 110%;
+  }
+
+  .tactics-block-info p{
+    font-size: 23px;
+    line-height: 110%;
+    padding: 50px;
+  }
+
+  .strategy-block-mail-us p , .strategy-block-mail-us p a {
+    font-size: 23px;
+    line-height: 110%;
+  }
+}

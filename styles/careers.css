@@ -11,6 +11,12 @@
   align-items: center;
 }
 
+.journey-send {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .about-careers div h2 {
   font-family: Montserrat;
   font-style: normal;
@@ -321,4 +327,49 @@
 
 .career-customer-cancel span {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .about-careers div h2 {
+    font-size: 87px;
+  }
+
+  .journey-send {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .journey-block h3 {
+    font-size: 40px;
+    line-height: 110%;
+    margin-top: 25px;
+    width: 100%;
+    margin-right: 100px;
+  }
+
+  .journey-block p a {
+    margin: 20px 0px;
+  }
+
+  .journey-block img {
+    margin-top: 10px;
+  }
+
+  .career-customer_left-info h2, .career-customer_left-info h3, .career-customer_left-info a  {
+    font-size: 35px;
+  }
+
+  .career-customer_left, .career-customer_right {
+    margin-top: 50px;
+  }
+
+  #modalCustomerEng ul li, #modalEngMalayChinese ul li, #modalEngViet ul li, #modalEngThai ul li, #modalEngInd ul li, #modalMotionDes ul li, #modalBusDev ul li {
+    font-size: 18px;
+    line-height: 110%;
+  }
+
+  #modalCustomerEng p, #modalCustomerEng span, #modalEngMalayChinese p, #modalEngMalayChinese span, #modalEngViet p, #modalEngViet span, #modalEngThai p, #modalEngThai span, #modalEngInd p, #modalEngInd span, #modalMotionDes p, #modalMotionDes span, #modalBusDev p, #modalBusDev span {
+    font-size: 35px;
+    line-height: 110%;
+  }
 }

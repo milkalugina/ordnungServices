@@ -120,21 +120,23 @@ footer p {
   color: white;
 }
 
-
 .mobile-menu {
+  margin: 5px 10px;
   position: fixed;
-  display: flex;
   align-items: center;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 0 16px;
   top: 0;
-  background-color: #27ae60;
+  background: #FFFFFF;
   left: 0;
   right: 0;
   height: 50px;
   z-index: 9999999;
   display: none;
+  border-bottom: solid 2px #000000;
 }
+
  .mobile-menu__btn {
   position: relative;
   display: flex;
@@ -148,7 +150,7 @@ footer p {
  .mobile-menu__icon {
 	 display: block;
 	 position: relative;
-	 background: rgba(255, 255, 255, 1);
+	 background: #000000;
 	 width: 90%;
 	 height: 4px;
 	 transition: 0.4s;
@@ -157,7 +159,7 @@ footer p {
 	 content: "";
 	 display: block;
 	 position: absolute;
-	 background: rgba(255, 255, 255, 1);
+   background: #000000;
 	 width: 100%;
 	 height: 4px;
 	 transition: 0.4s;
@@ -183,7 +185,7 @@ footer p {
 	 transition: 0.5s;
 	 transition-delay: 0.2s;
 	 overflow: hidden;
-	 background-color: #27ae60;
+   background: #FFFFFF;
 }
  .mobile-menu__list {
 	 transition: 0.5s;
@@ -193,12 +195,19 @@ footer p {
 	 margin-top: -50px;
 }
  .mobile-menu__item {
-	 font-size: 26px;
-	 padding-bottom: 15px;
+   display: block;
+   padding: 10px 15px;
+   text-decoration: none;
+   outline: none;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 300;
+   text-transform: uppercase;
+   font-size: 17px;
+   color: black;
 }
  .mobile-menu__link {
 	 text-decoration: none;
-	 color: #fff;
+	 color: #000000;
 }
  .mobile-menu__checkbox {
 	 display: none;
@@ -224,4 +233,23 @@ footer p {
  .mobile-menu__checkbox:checked ~ .mobile-menu__btn .mobile-menu__icon::before {
 	 transform: rotate(45deg);
 	 -webkit-transform: rotate(45deg);
+}
+
+@media screen and (max-width: 1440px) {
+  .topmenu a, footer p {
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (max-width: 860px) {
+  .menu-desktop {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+  }
 }

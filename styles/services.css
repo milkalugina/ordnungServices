@@ -37,3 +37,11 @@
 .what-services h2:hover {
   background: #273C41;
 }
+
+@media screen and (max-width: 1440px) {
+  .what-services h2 {
+    line-height: 110%;
+    font-size: 87px;
+    padding: 40px;
+  }
+}

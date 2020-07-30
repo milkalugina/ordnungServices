@@ -172,3 +172,39 @@
   color: #FFFFFF;
   padding: 20px;
 }
+
+@media screen and (max-width: 1440px) {
+  .outsourcing-services-intro-block h1 {
+    line-height: 110%;
+    font-size: 80px;
+    padding: 20px 50px;
+  }
+
+  .outsourcing-services-intro-block h2 {
+    font-size: 55px;
+    line-height: 110%;
+    margin: 3vh 20px;
+  }
+
+  .guide-block h2 {
+    font-size: 55px;
+    line-height: 110%;
+  }
+
+  .factors-block p {
+    font-size: 23px;
+    line-height: 110%;
+    padding: 50px;
+  }
+
+  .guide-block-text p, .guide-block-text p a {
+    font-size: 23px;
+    line-height: 110%;
+  }
+
+  .main-factors-block h3 {
+    font-size: 35px;
+    line-height: 110%;
+  }
+
+}
