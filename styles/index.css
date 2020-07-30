@@ -391,3 +391,28 @@
     width: 48.5vw;
   }
 }
+
+@media (max-width: 860px) {
+  .intro-block {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-block img {
+    margin: 3vh 0px;
+  }
+
+  .text-info {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-info p a {
+    margin-left: 0px;
+  }
+
+  .intro-block img {
+    height: 40vh;
+  }
+}
