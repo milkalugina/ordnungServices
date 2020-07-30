@@ -33,15 +33,14 @@
 .about-careers .about-careers_begin {
   background: #C59552;
   border-radius: 16px;
-  width: 99vw;
+  width: 98.5vw;
 }
 
 .about-careers .about-careers_ordnung {
   background: #273C41;
   border-radius: 16px;
   margin-top: 10px;
-  width: 99vw;
-
+  width: 98.5vw;
 }
 
 .journey-block h3 {
@@ -387,5 +386,18 @@
 
   .journey-block p a {
     margin: 60px 0px;
+  }
+}
+
+@media (max-width: 860px) {
+
+  .career-customer_left-img, .career-customer_right-img {
+    display: none;
+  }
+
+  .career-customer_left-info, .career-customer_right-info {
+    width: 99vw;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
