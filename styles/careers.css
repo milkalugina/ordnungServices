@@ -337,6 +337,7 @@
   .journey-send {
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .journey-block h3 {
@@ -371,5 +372,20 @@
   #modalCustomerEng p, #modalCustomerEng span, #modalEngMalayChinese p, #modalEngMalayChinese span, #modalEngViet p, #modalEngViet span, #modalEngThai p, #modalEngThai span, #modalEngInd p, #modalEngInd span, #modalMotionDes p, #modalMotionDes span, #modalBusDev p, #modalBusDev span {
     font-size: 35px;
     line-height: 110%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .journey-block h3 {
+    margin-right: 0px;
+
+  }
+
+  .career-customer_left-img img, .career-customer_right-img img {
+    height: 485px;
+  }
+
+  .journey-block p a {
+    margin: 60px 0px;
   }
 }

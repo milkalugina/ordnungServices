@@ -24,6 +24,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 2;
 }
 
 hr {
@@ -122,6 +123,7 @@ footer p {
 
 .mobile-menu {
   margin: 5px 10px;
+  display: none;
   position: fixed;
   align-items: center;
   flex-direction: row;
@@ -133,7 +135,6 @@ footer p {
   right: 0;
   height: 50px;
   z-index: 9999999;
-  display: none;
   border-bottom: solid 2px #000000;
 }
 
@@ -235,14 +236,14 @@ footer p {
 	 -webkit-transform: rotate(45deg);
 }
 
-@media screen and (max-width: 1440px) {
+
+@media (max-width: 1440px) {
   .topmenu a, footer p {
     font-size: 13px;
   }
 }
 
-
-@media screen and (max-width: 860px) {
+@media (max-width: 860px) {
   .menu-desktop {
     display: none;
   }
