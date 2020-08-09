@@ -408,11 +408,71 @@
     align-items: center;
   }
 
+  .built-block h2, .built-block-row-p h2, .experiences-block h2, .provide-block .provide-text h2, .exists-text h2 {
+    font-size: 45px;
+  }
+
   .text-info p a {
     margin-left: 0px;
   }
 
   .intro-block img {
     height: 40vh;
+  }
+}
+
+@media (max-width: 414px) {
+  .what_is_serv-block .ordservis_margin:nth-child(4), .innovation .ordservis_margin:nth-child(3) {
+    display: none;
+  }
+
+  .ordservis, .value_and_trust, .innovation {
+    font-size: 32px;
+    width: 95vw;
+  }
+
+  .built-block h2, .built-block-row-p h2, .experiences-block h2, .provide-block .provide-text h2, .exists-text h2 {
+    font-size: 28px;
+  }
+
+  .text-info h1 {
+    font-size: 70px;
+  }
+  .intro-block img {
+    height: 28vh;
+    margin: 7vh 0px;
+  }
+
+  .built-block h2, .built-block-row-p h2, .experiences-block h2, .provide-block .provide-text h2, .exists-text h2 {
+    font-size: 21px;
+  }
+
+  .experiences-block-info {
+    flex-wrap: wrap;
+  }
+  .exists-block-info img {
+    height: 26vh;
+  }
+
+  .text-info p a, .exists-text p, .provide-block .provide-text p, .goals-block-info p, .built-block-row-p p, .experiences-block-info p {
+    font-size: 16px;
+  }
+
+  .experiences-block-info p {
+    width: auto;
+  }
+
+  .experiences-block-info img {
+    margin-top: 0vh;
+    margin-right: 0vw;
+    width: 74vw;
+  }
+
+  .experiences-block {
+    margin-bottom: 0px;
+  }
+
+  .built-block-row-p {
+    width: 46.5vw;
   }
 }

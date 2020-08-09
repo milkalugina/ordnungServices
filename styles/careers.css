@@ -390,7 +390,6 @@
 }
 
 @media (max-width: 860px) {
-
   .career-customer_left-img, .career-customer_right-img {
     display: none;
   }
@@ -399,5 +398,32 @@
     width: 99vw;
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media (max-width: 414px) {
+  .journey-block h3 {
+    font-size: 20px;
+  }
+  .career-customer_left-info h2, .career-customer_left-info h3, .career-customer_left-info a, .career-customer_right-info h3, .career-customer_right-info a, .career-customer_right-info h2 {
+    font-size: 25px;
+    line-height: 100%;
+  }
+
+  .about-careers div h2 {
+    font-size: 50px;
+  }
+
+  #modalCustomerEng p, #modalCustomerEng span, #modalEngMalayChinese p, #modalEngMalayChinese span, #modalEngViet p, #modalEngViet span, #modalEngThai p, #modalEngThai span, #modalEngInd p, #modalEngInd span, #modalMotionDes p, #modalMotionDes span, #modalBusDev p, #modalBusDev span {
+    font-size: 25px;
+  }
+
+  #modalCustomerEng ul li, #modalEngMalayChinese ul li, #modalEngViet ul li, #modalEngThai ul li, #modalEngInd ul li, #modalMotionDes ul li, #modalBusDev ul li {
+    font-size: 12px;
+    padding: 5px 4px 5px 10px;
+  }
+
+  .about-careers .about-careers_begin, .about-careers .about-careers_ordnung {
+    width: 94.5vw;
   }
 }

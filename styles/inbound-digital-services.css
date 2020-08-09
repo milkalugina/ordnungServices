@@ -301,3 +301,45 @@ body {
     height: 155vh;
   }
 }
+
+@media (max-width: 414px) {
+  .digital-marketing-block h1, .digital-marketing-info-first h2, .digital-marketing-info-second h2, .digital-marketing-info-first h3, .digital-marketing-info-second h3, .digital-marketing-info h2, .inbound-marketing-info-first h2, .inbound-marketing-info-second h2, .inbound-marketing-info-first h3, .inbound-marketing-info-second h3, .inbound-marketing-info h2, .tactics-block h2, .inbound-marketing-block-h2, .strategy-block h2 {
+    font-size: 36px;
+  }
+
+  .tactics-block-info p {
+    font-size: 16px;
+    width: 40vw;
+  }
+
+  .strategy-block-mail-us {
+    flex-direction: column;
+  }
+
+  .strategy-block-mail-us p {
+    width: auto;
+    padding: 20px;
+  }
+
+  .strategy-block-mail-us p a {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .tactics-block-info {
+    height: 120vh;
+  }
+
+  .tactics-block {
+    margin-bottom: 0px;
+  }
+
+  .inbound-marketing-block  {
+    margin-top: 20px;
+  }
+
+  .strategy-block-mail-us p, .strategy-block-mail-us p a {
+    font-size: 16px;
+  }
+}

@@ -236,6 +236,10 @@ footer p {
 	 -webkit-transform: rotate(45deg);
 }
 
+.mobile-logo {
+  display: none;
+}
+
 
 @media (max-width: 1440px) {
   .topmenu a, footer p {
@@ -252,5 +256,14 @@ footer p {
   }
   .mobile-menu {
     display: flex;
+  }
+}
+
+@media (max-width: 414px) {
+  .mobile-menu p {
+    display: none;
+  }
+  .mobile-logo {
+    display: block !important;
   }
 }

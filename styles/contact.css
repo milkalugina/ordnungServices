@@ -67,3 +67,21 @@
     width: 423px;
   }
 }
+
+@media (max-width: 860px) {
+  .contact-block {
+    margin-top: 9vh;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 414px) {
+  .contact-block .contact-text p {
+    margin-top: 10px;
+  }
+
+  .contact-block iframe {
+    height: 375px;
+  }
+}

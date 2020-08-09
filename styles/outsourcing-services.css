@@ -206,5 +206,55 @@
     font-size: 35px;
     line-height: 110%;
   }
+}
 
+
+@media (max-width: 860px) {
+  .factors-block {
+    height: 155vh;
+    background-size: 190vw 200vh;
+  }
+}
+
+@media (max-width: 414px) {
+  .outsourcing-services-intro-block h1, .guide-block h2, .outsourcing-services-intro-block h2  {
+    font-size: 36px;
+  }
+  .guide-block-info {
+    flex-direction: column;
+  }
+
+  .factors-block p {
+    font-size: 16px;
+    width: 40vw;
+  }
+
+  .factors-block {
+    height: 85vh;
+  }
+
+  .main-factors-block h3 {
+    font-size: 25px;
+  }
+
+  .guide-block-text p {
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px 20px;
+    font-size: 16px;
+  }
+
+  .guide-block-text p a {
+    margin-left: 0px;
+    font-size: 16px;
+  }
+
+  .guide-block-text {
+    margin-left: 0px;
+  }
+
+  .guide-block-info img {
+    width: 85vw;
+  }
 }
