@@ -328,7 +328,7 @@ body {
   }
 
   .tactics-block-info {
-    height: 120vh;
+    height: 950px;
   }
 
   .tactics-block {
@@ -340,6 +340,6 @@ body {
   }
 
   .strategy-block-mail-us p, .strategy-block-mail-us p a {
-    font-size: 16px;
+      font-size: 16px;
   }
 }
