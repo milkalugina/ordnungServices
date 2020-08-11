@@ -421,7 +421,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .what_is_serv-block .ordservis_margin:nth-child(4), .innovation .ordservis_margin:nth-child(3) {
     display: none;
   }
