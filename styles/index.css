@@ -475,4 +475,14 @@
   .built-block-row-p {
     width: 46.5vw;
   }
+
+  .goals-block-img img, .provide-img img {
+    width: 193px;
+  }
+}
+
+@media (max-width: 375px) {
+  .goals-block-img img, .provide-img img {
+    width: 173px;
+  }
 }
