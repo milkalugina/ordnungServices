@@ -258,3 +258,9 @@
     width: 85vw;
   }
 }
+
+@media (max-width: 350px) {
+  .outsourcing-services-intro-block h1, .guide-block h2, .outsourcing-services-intro-block h2 {
+    font-size: 26px;
+  }
+}

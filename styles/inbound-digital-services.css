@@ -343,3 +343,13 @@ body {
       font-size: 16px;
   }
 }
+
+@media (max-width: 350px) {
+  .digital-marketing-block h1, .digital-marketing-info-first h2, .digital-marketing-info-second h2, .digital-marketing-info-first h3, .digital-marketing-info-second h3, .digital-marketing-info h2, .inbound-marketing-info-first h2, .inbound-marketing-info-second h2, .inbound-marketing-info-first h3, .inbound-marketing-info-second h3, .inbound-marketing-info h2, .tactics-block h2, .inbound-marketing-block-h2, .strategy-block h2 {
+    font-size: 26px;
+  }
+
+  .tactics-block-info p {
+    width: 53vw;
+  }
+}

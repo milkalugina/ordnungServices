@@ -483,6 +483,7 @@
 
   .goals-block-img img, .provide-img img {
     width: 94vw;
+    margin-bottom: 10px;
   }
 
   .goals-block-img, .provide-img {
@@ -495,12 +496,5 @@
 
   .built-block-row-p {
     width: 94vw;
-  }
-}
-
-@media (max-width: 375px) {
-  .goals-block-img img, .provide-img img {
-    width: 94vw;
-    margin-bottom: 10px;
   }
 }
