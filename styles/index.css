@@ -139,7 +139,7 @@
 
 /* provide-block */
 .provide-img {
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -226,7 +226,7 @@
 }
 
 .goals-block-img {
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: space-between;
 }
