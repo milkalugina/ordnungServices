@@ -443,9 +443,14 @@
     margin: 7vh 0px;
   }
 
-  .built-block h2, .built-block-row-p h2, .experiences-block h2, .provide-block .provide-text h2, .exists-text h2 {
+  .built-block h2, .built-block-row-p h2 {
     font-size: 21px;
+    height: 6vh;
   }
+
+   .experiences-block h2, .exists-text h2, .provide-block .provide-text h2 {
+     font-size: 21px;
+   }
 
   .experiences-block-info {
     flex-wrap: wrap;
@@ -477,12 +482,25 @@
   }
 
   .goals-block-img img, .provide-img img {
-    width: 193px;
+    width: 94vw;
+  }
+
+  .goals-block-img, .provide-img {
+    display: block;
+  }
+
+  .built-block-row-first, .built-block-row-second {
+    flex-direction: column;
+  }
+
+  .built-block-row-p {
+    width: 94vw;
   }
 }
 
 @media (max-width: 375px) {
   .goals-block-img img, .provide-img img {
-    width: 173px;
+    width: 94vw;
+    margin-bottom: 10px;
   }
 }
