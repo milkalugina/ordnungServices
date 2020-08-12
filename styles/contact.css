@@ -76,7 +76,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .contact-block .contact-text p {
     margin-top: 10px;
   }

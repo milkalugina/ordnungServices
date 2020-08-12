@@ -216,7 +216,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
   .outsourcing-services-intro-block h1, .guide-block h2, .outsourcing-services-intro-block h2  {
     font-size: 36px;
   }
